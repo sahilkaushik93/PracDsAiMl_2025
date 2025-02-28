@@ -3,3 +3,5 @@ ipykernel
 langchain-community
 langchain-core
 streamlit
+pypdf
+beautifulsoup4
