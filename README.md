@@ -6,7 +6,7 @@
 1. write all package names required
 2. pip install -r requirements.txt
 # Attaching with GitHub
-1. Creating a new repository via command line
+#### Creating a new repository via command line
 * echo "# PracDsAiMl_2025" >> README.md
 * git init
 * git add README.md
@@ -14,7 +14,17 @@
 * git branch -M main
 * git remote add origin https://github.com/sahilkaushik93/PracDsAiMl_2025.git
 * git push -u origin main
-2. Push an existing repository via command line
+#### Push an existing repository via command line
 * git remote add origin https://github.com/sahilkaushik93/PracDsAiMl_2025.git
 * git branch -M main
 * git push -u origin main
+# API Keys
+#### This is method 1
+1. create a file .env
+2. install python-dotenv
+3. use load_env() to load all apis in app script
+#### This is method 2
+1. create a .streamlit folder
+2. create a secrets.toml file
+3. save api secrets e.g. key = value
+4. use it in app script by "st.secrets(key)"
